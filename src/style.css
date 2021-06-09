@@ -1,1 +1,69 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  border: solid black 3px;
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+#cardNumber {
+  padding-top: 50px;
+  margin-bottom: 70px;
+}
+
+.diamond:first-child {
+  text-align: left;
+  color: red;
+  margin-left: 25px;
+  margin-top: 0;
+}
+
+.diamond:last-child {
+  text-align: right;
+  color: red;
+  margin-right: 25px;
+}
+
+.spade:first-child {
+  text-align: left;
+  color: red;
+  margin-left: 25px;
+  margin-top: 0;
+}
+
+.spade:last-child {
+  text-align: right;
+  color: red;
+  margin-right: 25px;
+}
+
+.club:first-child {
+  text-align: left;
+  color: red;
+  margin-left: 25px;
+  margin-top: 0;
+}
+
+.club:last-child {
+  text-align: right;
+  color: red;
+  margin-right: 25px;
+  margin-bottom: 0;
+}
+
+.heart:first-child {
+  text-align: left;
+  color: red;
+  margin-left: 25px;
+  margin-top: 0;
+}
+
+.heart:last-child {
+  text-align: right;
+  color: red;
+  margin-right: 25px;
+}
